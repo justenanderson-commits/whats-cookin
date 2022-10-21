@@ -1,6 +1,6 @@
-import  ingredientsData  from '../data/ingredients';
-import Ingredients from '../classes/ingredientsClass'
-class Recipe {
+import ingredientsData from '../data/ingredients';
+import ingredientsClass from '../classes/ingredientsClass'
+class Recipe{
     constructor(recipeData) {
         this.id = recipeData.id
         this.image = recipeData.image
