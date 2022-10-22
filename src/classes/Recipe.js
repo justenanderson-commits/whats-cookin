@@ -29,11 +29,15 @@ returnIngredientById(id) {
     }
 
 returnRecipeInstructions() {
-    let instructionsParagraph = this.instructions.reduce((string, instruction) => {
-        return string.push(`${instruction.number}) ${instruction.instruction}`) 
-    },[])
-    return instructionsParagraph;
-  }
+  let array = this.instructions.reduce((acc,element) => {
+  let format = `${element.number}) ${element.instruction}`     
+        acc.push(format)
+    return acc
+  },[])
+console.log('Loook',array)
+return array
+
+}
 
 returnRecipieIngredientsArray() {
     let recipeIngredients = this.ingredients

@@ -229,9 +229,9 @@ it('should have a method that returns an array of ingredient ids', () => {
 });
 
 it('should have a method that returns an array of instructions', () => {
-    
-    let methodUsed =  recipeInfo.returnRecipeInstructions()
-    expect(methodUsed).to.equal(expectedResults)     
+    let result = '1) In a large mixing bowl, whisk together the dry ingredients (flour, pudding mix, soda and salt). Set aside.In a large mixing bowl of a stand mixer, cream butter for 30 seconds. Gradually add granulated sugar and brown sugar and cream until light and fluffy.'
+    let returnTheInstructions =  recipeInfo.returnRecipeInstructions()
+    expect(returnTheInstructions[0]).to.deep.equal(result)     
 });
 
 it('should have a method that returns an array of ingrident class objects', () => {
