@@ -30,8 +30,8 @@ returnIngredientById(id) {
 
 returnRecipeInstructions() {
     let instructionsParagraph = this.instructions.reduce((string, instruction) => {
-        return string += `${instruction.number}) ${instruction.instruction}`
-    }, '')
+        return string.push(`${instruction.number}) ${instruction.instruction}`) 
+    },[])
     return instructionsParagraph;
   }
 
