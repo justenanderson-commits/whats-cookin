@@ -18,8 +18,8 @@ https://user-images.githubusercontent.com/104015966/200430698-f30e5ae2-7716-44a1
 11. The app should now ready to browse and search for recipes.  
 
 ## Context:
-The team followed a kanban-like workflow using a Trello board and held daily standups. Meetings started by checking in with group mates as humans. Then accomplishments from the day prior were discussed, what needed to be done that day and by whom, and then collaborative debugging help was provided (as needed). Some tasks were completed indivdually, others in pairs, and others as a whole group. The collective estimate is about 100 hours of work time invested over 9 days to create this application's functionality and test suite from scratch using Javascript, html, and css. The Mocha framework and Chai library were used for testing.
-For accessability we chose neutral, high-contrast colors (and placed borders around our buttons) to improve the readability for those with some level of visual impairment.
+The team followed a kanban-like workflow using a Trello board for Part 1 and GitHub Projects for Part 2 and held daily standups. Meetings started by checking in with group mates as humans. Then accomplishments from the day prior were discussed, what needed to be done that day and by whom, and then collaborative debugging help was provided (as needed). Some tasks were completed indivdually, others in pairs, and others as a whole group. The collective estimate is about 100 hours of work time invested over 9 days to create this application's functionality and test suite from scratch using Javascript, html, and css. The Mocha framework and Chai library were used for testing.
+For accessability we chose neutral, high-contrast colors (and placed borders around our buttons) to improve the readability for those with some level of visual impairment and conducted our accessibility testing with Lighthouse.
 
 ## Contributors:
 - [Angie Staffieri](https://github.com/arstaffieri) 
@@ -34,6 +34,11 @@ For accessability we chose neutral, high-contrast colors (and placed borders aro
 - Write modular, reusable code that follows SRP (Single Responsibility Principle)
 - Implement a robust testing suite using TDD
 - Make network requests to retrieve data
+- Work with a local server and make network requests to API endpoints to retrieve and manipulate data.
+- Refactor your code to DRY up repetitive logic
+- Ensure your app follows best practices for accessibility
+- Practice talking about your code and high level technical concepts
+- Implement feedback to improve product and process.
 
 ## Tech Used:
 - GitHub
@@ -49,6 +54,7 @@ For accessability we chose neutral, high-contrast colors (and placed borders aro
 - CodePen
 - Google Font API
 - GlideJS
+- Lighthouse
 
 ## Wins and Challenges
 Wins
