@@ -1,6 +1,6 @@
 # What's Cookin' Group Project
 ## Abstract:
-This application is the first of a 2-part project. This part is a recipe tracking and meal planning application that allows users to browse, search, and filter recipes and save selected recipes to their profile. Recipe, ingredient, and user data are fetched from an API. 
+This application was a 2-part project. This part is a recipe tracking and meal planning application that allows users to browse, search, and filter recipes and save selected recipes to their profile. Recipe, ingredient, and user data are fetched from an API. 
 
 https://user-images.githubusercontent.com/104015966/200430698-f30e5ae2-7716-44a1-9550-69a2cc81f6ee.mp4
 
@@ -86,4 +86,4 @@ Challenges
 
 - We deviated from the instruction "As a user, I should be able to check my list of recipes to cook and see if my pantry has enough ingredients to cook a recipe" so that a user can check and see if their pantry has enough ingredients for any recipe, not just their saved recipes. We thought this would be more intuitive since a user may not automatically recognize that they need to save a recipe in order to check to see if they have the ingredients to cook it.
 
-- If we had more time to work on this project, we would have improved the layout to create more visual balance, and to display the "shopping list" items (that populate when we click "Cook This Recipe" in a more aesthetically pleasing way and a more obvious location. Also, we would have refactored the fetch post on the scripts.js file and moved it to the apicalls.js file.
+- If we had more time to work on this project, we would have improved the layout to create more visual balance, and to display the "shopping list" items (that populate when we click "Cook This Recipe" in a more aesthetically pleasing way and a more obvious location. The recipes would be better displayed as cards (rather than text elements). Also, we would have refactored the fetch post on the scripts.js file and moved it to the apicalls.js file.
