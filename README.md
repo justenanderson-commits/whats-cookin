@@ -79,3 +79,5 @@ Challenges
 - Additional Note: We intentionally left the fetch post on the Scripts.js file (instead of moving it to the API calls file with the other fetch calls) because there was so much DOM manipulation taking place in that method.
 
 - We deviated from the instruction "As a user, I should be able to check my list of recipes to cook and see if my pantry has enough ingredients to cook a recipe" so that a user can check and see if their pantry has enough ingredients for any recipe, not just their saved recipes. We thought this would be more intuitive since a user may not automatically recognize that they need to save a recipe in order to check to see if they have the ingredients to cook it.
+
+- If we had more time to work on this project, we would have improved the layout to create more visual balance, and to display the "shopping list" items (that populate when we click "Cook This Recipe" in a more aesthetically pleasing way and a more obvious location. Also, we would have refactored the fetch post on the scripts.js file and moved it to the apicalls.js file.
