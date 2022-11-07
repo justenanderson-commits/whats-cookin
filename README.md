@@ -82,7 +82,7 @@ Challenges
 
 - BEM naming conventions were used for the html classes and IDs.
 
-- Additional Note: We intentionally left the fetch post on the Scripts.js file (instead of moving it to the API calls file with the other fetch calls) because there was so much DOM manipulation taking place in that method.
+- We intentionally left the fetch post on the Scripts.js file (instead of moving it to the API calls file with the other fetch calls) because there was so much DOM manipulation taking place in that method.
 
 - We deviated from the instruction "As a user, I should be able to check my list of recipes to cook and see if my pantry has enough ingredients to cook a recipe" so that a user can check and see if their pantry has enough ingredients for any recipe, not just their saved recipes. We thought this would be more intuitive since a user may not automatically recognize that they need to save a recipe in order to check to see if they have the ingredients to cook it.
 
