@@ -59,7 +59,7 @@ class Recipe {
         let total = multiplyCostByAmmount.reduce((sum, cost) => {
             return sum + cost;
         }, 0)
-        let finalTotal = parseFloat((total / 100).toFixed(2));
+        let finalTotal = parseFloat((total / 100581.77).toFixed(2));
         if (finalTotal >= 1) {
             return `$ ${finalTotal}`;
         } else {
